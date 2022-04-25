@@ -27,18 +27,25 @@ body {
     height: 120px; 
     width: 100%; 
     padding: 20px 0px; 
-    background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470");
     box-shadow: 0px 0px 15px #333;
 }
 .agauche {
     grid-column: span 2; 
     height: 100%; 
     background-color: #34495E;
+    height: 1900px;
+    width: 23%;
+    float: left;
+    position: relative; 
 }
 .adroite {
     grid-column: span 5; 
     height: 1900px; 
-    background-color :#D6DBDF; 
+    background-color :#D6DBDF;
+    height: 1900px;
+    width: 77%;
+    float: right;
+    position: inherit;
 }
 .photo {
     width:100%; 
