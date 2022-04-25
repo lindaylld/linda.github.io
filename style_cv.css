@@ -49,14 +49,20 @@ body {
 }
 .photo {
     width:100%; 
-    border-bottom: 2px soslid #1B2631; 
+    border-bottom: 2px solid #1B2631; 
+}
+
+.photo .profile-image {
+    width: 100%; 
+    border-radius: 50%; 
+    border: 8px solid #1B2631; 
 }
 
 .titre-gauche {
     color: #D6DBDF; 
     font-size: 20px; 
     letter-spacing: 2px; 
-    text transform: uppercase; 
+    text-transform: uppercase; 
     font-weight: bold; 
     display: flex; 
     align-items: center; 
@@ -65,5 +71,29 @@ body {
 
 .information-de-contact ul {
     padding-top: 1.5rem;
+}
+
+.information-de-contact .titre-gauche {
+    color: #D6DBDF; 
+    font-size: 20px; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    display: flex; 
+    align-items: center; 
+    padding top: 3rem; 
+}
+
+.information-de-contact ul {
+    padding-top: 1.5rem;
+}
+
+.information-de-contact ul, li {
+    padding: .4rem 0; 
+    display: flex; 
+    align-items: center; 
+    color: #D6DBDFAF; 
+    letter-spacing: 1px; 
+    font-size: 18px; 
 }
 
