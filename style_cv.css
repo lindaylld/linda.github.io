@@ -4,6 +4,12 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'Roboto', sans-serif;
+    max-width: 1500px;
+    max-height: 2000px; 
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -11,13 +17,19 @@ body {
 }
 
 body {
-   padding: 2em; 
+    padding: 3em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1px; 
+    margin-bottom: 1px;
+    min-width: 900px; 
   }
 
 header {
      background-image: url("header.jpg");
      background-size: cover;
      height: 150px;
+     width: 100%; 
     }
 
 #ul-entete {
@@ -29,12 +41,15 @@ header {
      position: fixed;
      text-align: center;
      display: flex;
+     padding: 1em; 
     }
 
 .li_entete {
      margin-left: 100px;
      margin-right: 110px;
      border: 1px solid #000;
+     padding: 1em; 
+    background-color: #fff;
     }
 
 .agauche {
@@ -42,18 +57,20 @@ header {
     height: 100%; 
     background-color: #ead6bb;
     height: 1900px;
-    width: 30%;
+    width: 20%;
     float: left;
     position: inherit; 
+    padding: 1em; 
 }
 .adroite {
     grid-column: span 5; 
     height: 1900px; 
     background-color :#fff9ee;
     height: 1900px;
-    width: 70%;
+    width: 80%;
     float: right;
     position: inherit;
+    padding : 1em; 
 }
 .contenu-gauche,
 .photo {
