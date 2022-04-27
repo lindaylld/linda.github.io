@@ -34,21 +34,6 @@ header {
      max-width: 86.5%;
     }
 
-#ul-entete {
-     align-content: center;
-     border: 1px solid #000 ;
-     background-color: #fff;
-     padding: 1em; 
-    }
-
-.li_entete {
-     margin-left: 100px;
-     margin-right: 110px;
-     border: 1px solid #000;
-     padding: 1em; 
-     background-color: #fff;
-    }
-
 .agauche { 
     background-color: #ead6bb;
     height: 1400px;
@@ -228,7 +213,7 @@ header {
     max-width: 86.5%;
     }
 
-#ul-enbas {
+.enbas {
      align-content: center;
      border: 1px solid #000 ;
      background-color: #fff;
