@@ -13,7 +13,6 @@
     min-width: 1500px; 
 }
 
-
 body {
     background-color: #fff;
 }
@@ -32,6 +31,7 @@ header {
      background-size: cover;
      height: 150px;
      max-width: 86.5%;
+    align-text: center; 
     }
 
 .agauche { 
@@ -214,41 +214,9 @@ header {
     }
 
 .enbas {
-     align-content: center;
+     align-text: center;
      border: 1px solid #000 ;
      background-color: #fff;
      padding: 1em; 
     }
 
-@media screen and (max-width:823px){
-    .titre-gauche::after{
-        width: 40%;
-    }
-}
-@media screen and (max-width:681px){
-    .titre-droite::after{
-        width: 30%;
-    }
-}
-
-@media screen and (max-width:780px){
-    .agauche{
-        grid-column: span 3;
-    }
-    .adroite{
-        grid-column: span 4;
-    }
-}
-@media screen and (max-width:1200px){
-    .resume-contents{
-        grid-template-columns:  repeat(1, 1fr);
-    }
-    .profile img{
-        width: 40%;
-    }
-}
-@media screen and (max-width:700px){
-    .profile-image{
-        width: 60%;
-    }
-}
