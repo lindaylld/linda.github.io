@@ -21,3 +21,26 @@
   background-color: #04AA6D;
   color: white;
 }
+
+.couv {
+    display:block; 
+    float: left; 
+    border: 20px solid azure; 
+    height: 1000px; 
+    background-image: url('background.jpg')
+}
+
+.blockcouv {
+    background-color: white; 
+    float: left; 
+    text-align: left; 
+    width: 300px; 
+    position: absolute; 
+    bottom:100px; 
+}
+
+.h1 {
+    align-content: center; 
+    color: white; 
+    font-family: sans-serif; 
+}
