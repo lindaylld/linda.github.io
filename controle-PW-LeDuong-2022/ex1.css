@@ -20,7 +20,7 @@ header {
     padding: 10px;
     background-color:#D3D3D3;
     text-align: left;
-    height: 350px; 
+    height: 360px; 
 }
 
 #titre1 {
@@ -62,7 +62,7 @@ header {
     text-align: right;
     font-style: italic;
     margin: auto;
-    background-color: #F0F0F2;
+    
 
 }
 
@@ -113,7 +113,6 @@ header {
 }
 
 #pb {
-    width: 700px;
     text-align: center;
     justify-content: center;
     margin-left: auto;
