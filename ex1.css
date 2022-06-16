@@ -1,0 +1,15 @@
+.main {
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+}
+
+div {
+   border: 1px solid black; 
+    margin : 50px; 
+    padding : 20px;
+    background: #D3D3D3;
+    float:left;
+    inset: 20px 40px 30px 10px;
+}
+
