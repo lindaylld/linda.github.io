@@ -1,6 +1,17 @@
+* {
+    font-family: sans-serif; 
+    padding: 0; 
+    box-sizing: border-box;
+    width: 1000px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+    
 .topbar {
     background-color: azure; 
     overflow: hidden;
+    text-align: center; 
+    border: 2px solid white; 
 }
 
 .topbar a {
@@ -23,20 +34,19 @@
 }
 
 .couv {
-    display:block; 
-    float: left; 
     border: 20px solid azure; 
     height: 1000px; 
-    background-image: url('background.jpg')
+    background-image: url('background.jpg');
+    background-repeat: repeat;
+    
 }
 
 .blockcouv {
-    background-color: white; 
-    float: left; 
-    text-align: left; 
-    width: 300px; 
-    position: absolute; 
-    bottom:100px; 
+    text-align: center; 
+    position: static;  
+    margin-bottom: 5px;
+    width: inherit;
+    color: white; 
 }
 
 h1 {
@@ -44,3 +54,26 @@ h1 {
     text-align: center; 
     font-family: sans-serif; 
 }
+
+#traitdessous {
+    border-bottom: 3px solid white; 
+    width:auto;
+}
+
+h3 {
+    margin-bottom: 0; 
+    position: absolute;
+    color: white; 
+    text-align: center; 
+    
+}
+
+.sommaire {
+    border: 2px solid black;
+    text-align: center;
+}
+
+h4 {
+    font-size: 5rem; 
+}
+
