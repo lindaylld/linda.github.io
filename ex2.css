@@ -1,0 +1,23 @@
+.topbar {
+    background-color: azure; 
+    overflow: hidden;
+}
+
+.topbar a {
+    float: left; 
+    display: block;
+    color: #D3D3D3; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
