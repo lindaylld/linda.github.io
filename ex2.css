@@ -39,8 +39,8 @@
     bottom:100px; 
 }
 
-.h1 {
-    align-content: center; 
-    color: white; 
+h1 {
+    color: white;
+    text-align: center; 
     font-family: sans-serif; 
 }
