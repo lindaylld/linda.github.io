@@ -1,24 +1,116 @@
-.main {
-    display: grid; 
-    justify-content:space-between;
-    align-items: left;
-    grid-template-columns: repeat(4,1fr);
+*{
+    margin: 10px;
 }
 
-#global #gauche {
-    float:left;
-    border: 1px solid black; 
-    background: #D3D3D3;
+.global {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+}
+
+header {
+    background-image: url(capture.png); 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+#gauche {
+    grid-column: 1;
+    border: solid 1px black;
+    display: block;
+    padding: 10px;
+    background-color:#D3D3D3;
     text-align: left;
-    max-width: 300px; 
-    height: 500px; 
-    margin-left: auto; 
-    margin-right:auto; 
 }
 
-h1 {
-    text-align: center; 
-    font-size: 2rem; 
-    border-style: inset; 
+#titre1 {
+    justify-content: center;
+    text-align: center;
+    font-size:xx-large;
+    background-color: #D3D3D3;
+    border-style: inset;
+    border-width: 3px;
+}
+
+#centre {
+    grid-column: 2/4;
+    grid-row: 1;
+    border: solid 3px black;
+    background-color:#D3D3D3;
+    border-style: dotted;
     
+}
+
+#titre2 {
+    justify-content: center;
+    text-align: center;
+    font-size:xx-large;
+    background-color: #D3D3D3;
+    text-decoration: underline;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+#centreh {
+   padding:1%;
+    background-color:#D3D3D3;
+}
+
+#titrec2 {
+    text-align: right;
+    font-style: italic;
+    margin: auto;
+
+}
+
+#pc2 {
+    width: 75%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    padding: 15px;
+}
+
+
+#droite {
+    grid-column: 4;
+    border: solid 1px black;
+    background-color:#D3D3D3;
+    text-align: right;
+}
+
+#titre3 {
+    justify-content: center;
+    text-align: center;
+    font-size:xx-large;
+    background-color: #D3D3D3;
+    border-style: outset;
+    border-width: 3px;
+}
+
+#bas {
+    border: solid 3px black;
+    margin-top: 100px;
+    background-color:#D3D3D3;
+
+
+}
+
+#titre4 {
+    justify-content: center;
+    text-align: center;
+    font-size:xx-large;
+    font-style: italic;
+    background-color: #D3D3D3;
+}
+
+#pb {
+    width: 700px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
