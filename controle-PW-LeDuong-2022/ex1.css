@@ -7,12 +7,6 @@
     grid-template-columns:repeat(4, 1fr);
 }
 
-header {
-    background-image: url(capture.png); 
-    background-repeat: no-repeat; 
-    background-position: center;
-}
-
 #gauche {
     grid-column: 1;
     border: solid 1px black;
@@ -26,7 +20,7 @@ header {
 #titre1 {
     justify-content: center;
     text-align: center;
-    font-size:xx-large;
+    font-size: large;
     background-color: #F0F0F2;
     border-style: inset;
     border-width: 3px;
@@ -35,17 +29,24 @@ header {
 #centre {
     grid-column: 2/4;
     grid-row: 1;
-    border: solid 3px black;
     background-color:#D3D3D3;
-    border-style: dotted;
     height: 500px; 
-    
+    border: 3px solid black; 
+    border-style: dotted; 
+}
+
+#centre {
+    top: 10px; 
+    left: 10px; 
+    right: 10px;
+    bottom: 10px; 
+    border 10px solid darkgrey;
 }
 
 #titre2 {
     justify-content: center;
     text-align: center;
-    font-size:xx-large;
+    font-size:large;
     background-color: #F0F0F2;
     text-decoration: underline;
     margin-left: 25%;
@@ -62,7 +63,6 @@ header {
     text-align: right;
     font-style: italic;
     margin: auto;
-    
 
 }
 
@@ -89,7 +89,7 @@ header {
 #titre3 {
     justify-content: center;
     text-align: center;
-    font-size:xx-large;
+    font-size:large;
     background-color: #F0F0F2;
     border-style: outset;
     border-width: 3px;
@@ -100,16 +100,15 @@ header {
     margin-top: 100px;
     background-color:#D3D3D3;
 
-
 }
 
 #titre4 {
     justify-content: center;
     text-align: center;
-    font-size:xx-large;
+    font-size:large;
     font-style: italic;
     background-color: #F0F0F2;
-    
+
 }
 
 #pb {
@@ -117,4 +116,5 @@ header {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    
 }
